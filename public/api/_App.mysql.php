@@ -12,6 +12,7 @@ class Application {
 		$SERVER = $dbconf['host'];
 		$DATABASE = "saboldru_developer";
     $PORT = $dbconf['port'];
+		if ( $PORT <= 0 ) $PORT = ini_get("mysqli.default_port");
 
 		self::$db = new mysqli($SERVER, $UID, $PWD, $DATABASE, $PORT);
 		if (mysqli_connect_errno()) {
