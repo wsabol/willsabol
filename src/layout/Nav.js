@@ -21,7 +21,7 @@ export default class extends React.Component {
     return (
       <nav className={"navbar is-fixed-top"+(this.state.transparent ? ' is-transparent' : '')}>
         <div className="navbar-brand">
-          <a class="navbar-item" href="#home">
+          <a className="navbar-item" href="#home">
             <img src="/assets/logo.png" alt="logo" />
           </a>
           <Burger target="navbar" />

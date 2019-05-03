@@ -34,8 +34,8 @@ export default class extends React.Component {
         <ScrollComponent className="container">
           <div className="columns is-multiline">
             { portfolio === null ? 'what.' :
-              portfolio.map(p =>
-                <div className="column is-4-desktop is-half-tablet">
+              portfolio.map((p, i) =>
+                <div key={i} className="column is-4-desktop is-half-tablet">
                   <PortfolioItem {...p} />
                 </div>
               )
@@ -44,9 +44,9 @@ export default class extends React.Component {
         </ScrollComponent>
         <div className="section-footer has-text-centered">
           <h3 className="title has-text-black-darker">See More</h3>
-          <div class="buttons">
-            <a href="www.codepen.io/wsabol" target="_blank" rel="noopener noreferrer" class="button is-large is-link">CodePen.io</a>
-            <a href="www.github.com/wsabol" target="_blank" rel="noopener noreferrer" class="button is-large is-link">GitHub</a>
+          <div className="buttons">
+            <a href="www.codepen.io/wsabol" target="_blank" rel="noopener noreferrer" className="button is-large is-link">CodePen.io</a>
+            <a href="www.github.com/wsabol" target="_blank" rel="noopener noreferrer" className="button is-large is-link">GitHub</a>
           </div>
         </div>
       </section>

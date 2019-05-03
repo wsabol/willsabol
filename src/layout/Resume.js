@@ -45,7 +45,7 @@ export default class extends React.Component {
               {
                 this.state.work.map((w, i, arr) => {
                   return (
-                    <React.Fragment>
+                    <React.Fragment key={i} >
                       { i > 0 ? (
                         new Date(arr[i-1].start_date).getYear() !== new Date(w.start_date).getYear() ?
                         <ScrollComponent tagName="header" className="timeline-header">
@@ -59,8 +59,8 @@ export default class extends React.Component {
                         <div className="timeline-content">
                           <p className="heading">{w.date_formatted}</p>
                           <p>{w.content}</p>
-                          <p>{w.skills.split(',').map(s =>
-                            <span className="tag">{s}</span>
+                          <p>{w.skills.split(',').map((s, j) =>
+                            <span key={j} className="tag">{s}</span>
                           )}</p>
                         </div>
                       </ScrollComponent>

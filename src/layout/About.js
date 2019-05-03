@@ -76,13 +76,6 @@ export default class extends React.Component {
               </div>
             </div>
           }
-          <div className="section-footer has-text-centered">
-            <h3 className="title has-text-black-darker">Get Social</h3>
-            <div class="buttons">
-              <a href="www.codepen.io/wsabol" target="_blank" rel="noopener noreferrer" class="button is-large is-link">CodePen.io</a>
-              <a href="www.github.com/wsabol" target="_blank" rel="noopener noreferrer" class="button is-large is-link">GitHub</a>
-            </div>
-          </div>
         </ScrollComponent>
       </section>
     )
