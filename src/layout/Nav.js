@@ -22,9 +22,9 @@ export default class extends React.Component {
       <nav className={"navbar is-fixed-top"+(this.state.transparent ? ' is-transparent' : '')}>
         <div className="navbar-brand">
           <a class="navbar-item" href="#home">
-            <img src="/assets/logo.png"  />
+            <img src="/assets/logo.png" alt="logo" />
           </a>
-          <Burger />
+          <Burger target="navbar" />
         </div>
         <div id="navbar" className="navbar-menu animated fadeInRight">
           <div className="navbar-end">
