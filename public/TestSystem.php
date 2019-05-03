@@ -9,14 +9,15 @@ $result = $App->query($sel_query);
 if ( !!$result ) {
 	if( $row = $result->fetch_assoc() ) {
 		?>Everything is ok: HostName [<?=gethostname()?>]<?
+
+		// wl(gethostname());
+		// wla($_SERVER);
+
 		exit;
 	}
 }
 
 $App->close();
 $App = "";
-
-// print(gethostname());
-// print_r($_SERVER);
 
 ?>

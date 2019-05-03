@@ -1,13 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Nav, Header, About, Portfolio, Resume, Contact, Footer } from './layout'
 
-function App() {
-  return (
-    <div>
-      App
-    </div>
-  );
-}
-
-export default App;
+export default props =>
+  <React.Fragment>
+    <Nav />
+    <Header
+      greeting="Hi"
+      title="I'm Will"
+      subtitle="a Web Architect"
+     />
+    <About id="about" />
+    <Portfolio id="portfolio" />
+    <Resume id="resume" />
+    <Contact id="contact" />
+    <Footer />
+  </React.Fragment>

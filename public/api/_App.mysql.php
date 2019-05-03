@@ -3,16 +3,15 @@
 class Application {
 	private static $db;
 	public $R	= array();
+	public $admin = array();
 
-	function ConnectToDB() {
+	function ConnectToDB( $dbconf ) {
 		#setup the db
-		$conf = parse_ini_file("/data/server-conf.ini", true);
-
-    $UID = $conf['siteground']['user'];
-		$PWD = $conf['siteground']['psw'];
-		$SERVER = $conf['siteground']['host'];
+		$UID = $dbconf['user'];
+		$PWD = $dbconf['psw'];
+		$SERVER = $dbconf['host'];
 		$DATABASE = "saboldru_developer";
-    $PORT = $conf['siteground']['port'];
+    $PORT = $dbconf['port'];
 
 		self::$db = new mysqli($SERVER, $UID, $PWD, $DATABASE, $PORT);
 		if (mysqli_connect_errno()) {
@@ -23,8 +22,21 @@ class Application {
 		}
 	}
 	function __construct() {
-		$this->ConnectToDB();
-		$this->R = $_REQUEST;
+		$conf = parse_ini_file("/data/server-conf.ini", true);
+		$this->admin = $conf['admin'];
+
+		$this->ConnectToDB($conf['database']);
+		$this->R = json_decode(file_get_contents('php://input'), true);
+	}
+	public function sendmail( $from, $subject, $msg ) {
+		// Headers
+		$headers = "MIME-Version: 1.0\r\n";
+		$headers.= "Content-type: text/html; charset=UTF-8\r\n";
+		$headers.= "From: <" . $from . ">";
+		$sent = mail($this->admin['email'], $subject, $msg, $headers);
+		return array(
+			'sent' => !!$sent
+		);
 	}
 	public static function query( $query_str ) {
 		self::clean();

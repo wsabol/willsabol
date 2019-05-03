@@ -1,16 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import 'bulma/css/bulma.css';
+import './css/animate.css';
+import './css/App.css'
+import App from './App'
 
-class App extends React.Component {
-  constructor() {
-    super();
-  }
-  render() {
-    return (
-      <p>App</p>
-    )
-  }
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
