@@ -20,7 +20,7 @@ export default class extends React.Component {
     e.preventDefault();
     console.log({action: 'email', ...this.state});
     if ( this.state.name.trim() !== '' && this.state.email.trim() !== '' ) {
-      fetch(window.apiServer + "/api/contact.json.php", {
+      fetch("/api/contact.json.php", {
         method: 'post',
         body: JSON.stringify({action: 'email', ...this.state})
       })

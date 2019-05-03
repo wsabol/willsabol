@@ -14,7 +14,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    fetch(window.apiServer + "/api/profile.json.php")
+    fetch("/api/profile.json.php")
       .then(res => res.json())
       .then((profile) => {
           this.setState({ profile });
@@ -24,7 +24,7 @@ export default class extends React.Component {
         }
       )
 
-    fetch(window.apiServer + "/api/skills_profile.json.php")
+    fetch("/api/skills_profile.json.php")
       .then(res => res.json())
       .then((skills) => {
           this.setState({ skills });
