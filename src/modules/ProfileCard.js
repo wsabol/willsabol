@@ -1,4 +1,5 @@
 import React from 'react'
+import { smoothScroll } from '../App'
 
 export default profile =>
   <div className="box">
@@ -9,15 +10,7 @@ export default profile =>
           <td>{profile.name}</td>
         </tr>
         <tr>
-          <th>Place of Birth</th>
-          <td>{profile.birthplace}</td>
-        </tr>
-        <tr>
-          <th>Date of Birth</th>
-          <td>{profile.birthday}</td>
-        </tr>
-        <tr>
-          <th>Current Location</th>
+          <th>Location</th>
           <td>{profile.current_loc}</td>
         </tr>
         <tr>
@@ -30,4 +23,9 @@ export default profile =>
         </tr>
       </tbody>
     </table>
+    <div className="buttons is-centered" >
+      <a onClick={smoothScroll} className="button is-primary is-rounded button-special" href="#contact" >
+        Contact Me
+      </a>
+    </div>
   </div>

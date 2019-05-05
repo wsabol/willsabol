@@ -1,9 +1,5 @@
 import React from 'react';
-
-import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-library.add(faEnvelope)
 
 export default class extends React.Component {
   constructor(props) {
@@ -20,7 +16,7 @@ export default class extends React.Component {
     e.preventDefault();
     console.log({action: 'email', ...this.state});
     if ( this.state.name.trim() !== '' && this.state.email.trim() !== '' ) {
-      fetch("/api/contact.json.php", {
+      fetch(process.env.REACT_APP_API_SERVER+"/api/contact.json.php", {
         method: 'post',
         body: JSON.stringify({action: 'email', ...this.state})
       })
@@ -81,7 +77,7 @@ export default class extends React.Component {
               <div className="control"
                 style={{margin: '0 auto'}}
               >
-                <button className="button is-link is-large"
+                <button className="button is-link is-medium is-rounded button-special"
                   onClick={e => this.handleFormSubmit(e)}
                 >
                   <span className="icon">

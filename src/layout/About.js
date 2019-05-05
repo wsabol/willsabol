@@ -14,7 +14,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    fetch("/api/profile.json.php")
+    fetch(process.env.REACT_APP_API_SERVER+"/api/profile.json.php")
       .then(res => res.json())
       .then((profile) => {
           this.setState({ profile });
@@ -24,7 +24,7 @@ export default class extends React.Component {
         }
       )
 
-    fetch("/api/skills_profile.json.php")
+    fetch(process.env.REACT_APP_API_SERVER+"/api/skills_profile.json.php")
       .then(res => res.json())
       .then((skills) => {
           this.setState({ skills });
@@ -49,7 +49,7 @@ export default class extends React.Component {
         <div className="section-heading has-text-centered">
           <h3 className="title">About</h3>
         </div>
-        <ScrollComponent className="container">
+        <div className="container">
           { profile === null ? 'Loading...' :
             <div className="columns is-multiline">
               <div className="column is-full-tablet is-7-desktop">
@@ -69,14 +69,14 @@ export default class extends React.Component {
                   <ProfileCard {...profile} />
                 </div>
                 : '' }
-              <div className="column is-5-desktop is-6-tablet is-8-mobile is-offset-2-mobile">
+              <ScrollComponent className="column is-5-desktop is-6-tablet is-10-mobile is-offset-1-mobile">
                 { skills === null ? '' :
                   <AppPie labels={Object.keys(skills)} series={Object.values(skills)} />
                 }
-              </div>
+              </ScrollComponent>
             </div>
           }
-        </ScrollComponent>
+        </div>
       </section>
     )
   }

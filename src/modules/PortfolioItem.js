@@ -1,9 +1,10 @@
 import React from 'react'
+import ScrollComponent from '../modules/ScrollComponent'
 
 export default data => {
 
   return (
-    <div className="card portfolio-item">
+    <ScrollComponent className="card portfolio-item">
       <div className="card-image">
         <figure className="image is-5by3" >
           <img src={data.img} alt={data.title} />
@@ -21,6 +22,6 @@ export default data => {
           <a href={data.href} target="_blank" rel="noopener noreferrer" className="card-footer-item">On the Web</a>
         }
       </footer>
-    </div>
+    </ScrollComponent>
   )
 }

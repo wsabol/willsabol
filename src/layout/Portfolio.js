@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrollComponent from '../modules/ScrollComponent'
 import PortfolioItem from '../modules/PortfolioItem'
 
 export default class extends React.Component {
@@ -12,7 +11,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    fetch("/api/portfolio.json.php")
+    fetch(process.env.REACT_APP_API_SERVER+"/api/portfolio.json.php")
       .then(res => res.json())
       .then((portfolio) => {
           this.setState({ portfolio });
@@ -31,7 +30,7 @@ export default class extends React.Component {
         <div className="section-heading has-text-centered">
           <h3 className="title has-text-black-darker">Design Lab</h3>
         </div>
-        <ScrollComponent className="container">
+        <div className="container">
           <div className="columns is-multiline">
             { portfolio === null ? 'what.' :
               portfolio.map((p, i) =>
@@ -41,12 +40,14 @@ export default class extends React.Component {
               )
             }
           </div>
-        </ScrollComponent>
+        </div>
         <div className="section-footer has-text-centered">
           <h3 className="title has-text-black-darker">See More</h3>
           <div className="buttons">
-            <a href="www.codepen.io/wsabol" target="_blank" rel="noopener noreferrer" className="button is-large is-link">CodePen.io</a>
-            <a href="www.github.com/wsabol" target="_blank" rel="noopener noreferrer" className="button is-large is-link">GitHub</a>
+            <a href="www.codepen.io/wsabol" target="_blank" rel="noopener noreferrer"
+              className="button button-special is-rounded is-medium is-link">CodePen.io</a>
+            <a href="www.github.com/wsabol" target="_blank" rel="noopener noreferrer"
+              className="button button-special is-rounded is-medium is-link">GitHub</a>
           </div>
         </div>
       </section>

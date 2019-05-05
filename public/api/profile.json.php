@@ -8,8 +8,6 @@ header('Content-Type: application/json');
 $sel_query = "
   SELECT
     fm.name,
-    DATE_FORMAT(fm.birthday,'%D %M %Y') as birthday,
-    fm.birthplace,
     (
         SELECT citystate
         FROM saboldru_jeslyn.Home h

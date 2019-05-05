@@ -4,9 +4,11 @@ export default class extends React.Component {
   constructor(props){
     super(props)
     this.node = React.createRef()
-    this.speed = 0.5
-    this.opacity = 0
+    this.fps = props.fps || 60
+    this.speed = props.speed || 0.5
     this.tagName = props.tagName || 'div';
+    this.opacity = 0
+    this.handler = null;
     this.state = {
       ...props
     };
@@ -21,11 +23,13 @@ export default class extends React.Component {
     this.show()
   }
   incFade = () => {
+    this.opacity += (1 / (this.speed*this.fps))
     if (this.opacity < 1) {
-      this.opacity += .02;
-      setTimeout(this.incFade,10);
+      this.node.current.style.opacity = this.opacity;
+      setTimeout(this.incFade, 1000 / this.fps);
+    } else {
+      this.node.current.style.opacity = 1
     }
-    this.node.current.style.opacity = this.opacity;
   }
   show = () => {
     const rect = this.node.current.getBoundingClientRect();

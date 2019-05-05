@@ -1,12 +1,7 @@
 import React from 'react'
 import ScrollComponent from '../modules/ScrollComponent'
 import 'bulma-timeline/dist/css/bulma-timeline.min.css';
-
-import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
-library.add(faBriefcase)
-library.add(faGraduationCap)
 
 export default class extends React.Component {
   constructor(props) {
@@ -18,7 +13,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    fetch("/api/work_experience.json.php")
+    fetch(process.env.REACT_APP_API_SERVER+"/api/work_experience.json.php")
       .then(res => res.json())
       .then((work) => {
           this.setState({ isLoaded: true, work });
@@ -36,7 +31,7 @@ export default class extends React.Component {
         <div className="section-heading has-text-centered">
           <h3 className="title has-text-black-darker">Work Experience</h3>
         </div>
-        <div className="container">
+        <div className="container has-text-centered">
           { !this.state.isLoaded ? '...' :
             <div className="timeline is-centered">
               <header className="timeline-header">
@@ -70,6 +65,14 @@ export default class extends React.Component {
               }
             </div>
           }
+          <a className="button is-info is-rounded button-special"
+            href="https://drive.google.com/open?id=0B19WlCTcwWR9cDFpSm9mUElJdlU"
+          >
+            <span className="icon">
+              <FontAwesomeIcon icon="file" />
+            </span>
+            <span>Resume</span>
+          </a>
         </div>
       </section>
     )

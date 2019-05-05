@@ -1,5 +1,6 @@
 import React from 'react';
 import Burger from '../modules/Burger'
+import { smoothScroll } from '../App'
 
 export default class extends React.Component {
   constructor(props) {
@@ -21,17 +22,17 @@ export default class extends React.Component {
     return (
       <nav className={"navbar is-fixed-top"+(this.state.transparent ? ' is-transparent' : '')}>
         <div className="navbar-brand">
-          <a className="navbar-item" href="#home">
+          <a onClick={smoothScroll} className="navbar-item" href="#home">
             <img src="/assets/logo.png" alt="logo" />
           </a>
           <Burger target="navbar" />
         </div>
         <div id="navbar" className="navbar-menu animated fadeInRight">
           <div className="navbar-end">
-            <a className="navbar-item" href="#about">About</a>
-            <a className="navbar-item" href="#portfolio">Lab</a>
-            <a className="navbar-item" href="#resume">Resume</a>
-            <a className="navbar-item" href="#contact">Contact</a>
+            <a onClick={smoothScroll} className="navbar-item" href="#about">About</a>
+            <a onClick={smoothScroll} className="navbar-item" href="#portfolio">Lab</a>
+            <a onClick={smoothScroll} className="navbar-item" href="#resume">Resume</a>
+            <a onClick={smoothScroll} className="navbar-item" href="#contact">Contact</a>
           </div>
         </div>
       </nav>
