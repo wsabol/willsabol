@@ -13,7 +13,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    fetch(process.env.REACT_APP_API_SERVER+"/api/work_experience.json.php")
+    fetch((process.env.REACT_APP_API_SERVER || '')+"/api/work_experience.json.php")
       .then(res => res.json())
       .then((work) => {
           this.setState({ isLoaded: true, work });

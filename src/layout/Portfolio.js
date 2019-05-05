@@ -11,7 +11,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    fetch(process.env.REACT_APP_API_SERVER+"/api/portfolio.json.php")
+    fetch((process.env.REACT_APP_API_SERVER || '')+"/api/portfolio.json.php")
       .then(res => res.json())
       .then((portfolio) => {
           this.setState({ portfolio });
