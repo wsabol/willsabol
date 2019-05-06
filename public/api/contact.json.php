@@ -9,9 +9,10 @@ if ( empty($App->R['action']) || empty($App->R['name']) || empty($App->R['email'
 
 // set response code - 200 OK
 http_response_code(200);
+$msg = "Name: ".$App->R['name']."<br />Email: ".$App->R['email']."<br /><br />".$App->R['message']."<br />";
 
 // php mail
-$results = $App->sendmail($App->R['email'], $_SERVER['HTTP_HOST'] . "/Contact - " . $App->R['name'], $App->R['message']);
+$results = $App->sendmail($_SERVER['HTTP_HOST'] . "/Contact - " . $App->R['name'], $msg);
 
 // echo json_encode( $_POST );
 echo json_encode($results);

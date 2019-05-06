@@ -7,6 +7,15 @@ export default class extends React.Component {
 
     this.state = {
       options: {
+        title: {
+          text: 'skillSet',
+          align: 'center',
+          style: {
+            fontFamily: 'monospace',
+            fontSize:  '18px',
+            color:  '#263238'
+          },
+        },
         labels: props.labels,
         dataLabels: {
           enabled: true,

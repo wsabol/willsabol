@@ -29,11 +29,11 @@ class Application {
 		$this->ConnectToDB($conf['database']);
 		$this->R = json_decode(file_get_contents('php://input'), true);
 	}
-	public function sendmail( $from, $subject, $msg ) {
+	public function sendmail( $subject, $msg ) {
 		// Headers
 		$headers = "MIME-Version: 1.0\r\n";
 		$headers.= "Content-type: text/html; charset=UTF-8\r\n";
-		$headers.= "From: <" . $from . ">";
+		$headers.= "From: <contactform@willsabol.com>";
 		$sent = mail($this->admin['email'], $subject, $msg, $headers);
 		return array(
 			'sent' => !!$sent

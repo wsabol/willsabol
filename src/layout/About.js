@@ -14,7 +14,7 @@ export default class extends React.Component {
   }
 
   componentDidMount() {
-    fetch((process.env.REACT_APP_API_SERVER || '')+"/api/profile.json.php")
+    fetch(process.env.REACT_APP_API_SERVER+"api/profile.json.php")
       .then(res => res.json())
       .then((profile) => {
           this.setState({ profile });
@@ -24,7 +24,7 @@ export default class extends React.Component {
         }
       )
 
-    fetch((process.env.REACT_APP_API_SERVER || '')+"/api/skills_profile.json.php")
+    fetch(process.env.REACT_APP_API_SERVER+"api/skills_profile.json.php")
       .then(res => res.json())
       .then((skills) => {
           this.setState({ skills });
@@ -59,7 +59,8 @@ export default class extends React.Component {
                   database management, and love for <strong>Music</strong> and coffee.</p>
                   <p>With BS in Mechanical Engineering, I have unique insight into <strong>data</strong> analytics,
                   signal processing, and systems thinking.</p>
-                  <p>Looking for creators with great <strong>ideas</strong> aiming for long term success.</p>
+                  <p>I am <strong>passionate</strong> about understanding and modeling our world, and
+                  enjoy building products and features to <strong>share</strong> those insights.</p>
                 </article>
                 { window.innerWidth < 1088 ? '' :
                   <ProfileCard {...profile} /> }
