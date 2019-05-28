@@ -9,11 +9,14 @@ export default class extends React.Component {
       email: '',
       message: '',
       mailSent: false,
-      error: null
+      error: null,
+      sending: false
     }
   }
   handleFormSubmit = (e) => {
+    this.setState({sending: true})
     e.preventDefault();
+
     console.log({action: 'email', ...this.state});
     if ( this.state.name.trim() !== '' && this.state.email.trim() !== '' ) {
       fetch(process.env.REACT_APP_API_SERVER+"api/contact.json.php", {
@@ -89,7 +92,7 @@ export default class extends React.Component {
                   <span className="icon">
                     <FontAwesomeIcon icon="envelope" />
                   </span>
-                  <span>Submit</span>
+                  <span>{this.state.sending ? 'Sending...' : 'Submit'}</span>
                 </button>
               </div>
             </div>
