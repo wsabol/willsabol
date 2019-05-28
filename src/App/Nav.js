@@ -1,5 +1,5 @@
 import React from 'react';
-import Burger from '../modules/Burger'
+import Burger from './Burger'
 import { smoothScroll } from '../App'
 
 export default class extends React.Component {

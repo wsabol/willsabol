@@ -1,8 +1,15 @@
 import React from 'react';
 import EasingFunctions from './EasingFunctions'
-import { Nav, Header, About, Portfolio, Resume, Contact, Footer } from './layout'
-import './css/animate.css';
-import './css/App.css'
+import './animate.css';
+import './App.css'
+
+import Nav from './Nav'
+import Header from '../Header'
+import About from '../About'
+import Portfolio from '../Portfolio'
+import Resume from '../Resume'
+import Contact from '../Contact'
+import Footer from '../Footer'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'

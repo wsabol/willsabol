@@ -1,6 +1,6 @@
 import React from 'react'
-import ScrollComponent from '../modules/ScrollComponent'
-import ContactForm from '../modules/ContactForm.js'
+import ScrollComponent from '../ScrollComponent'
+import ContactForm from './ContactForm.js'
 
 export default props =>
   <section className="section has-background-primary" id="contact">

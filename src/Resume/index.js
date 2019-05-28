@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollComponent from '../modules/ScrollComponent'
+import ScrollComponent from '../ScrollComponent'
 import 'bulma-timeline/dist/css/bulma-timeline.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 

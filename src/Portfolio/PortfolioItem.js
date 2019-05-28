@@ -1,5 +1,5 @@
 import React from 'react'
-import ScrollComponent from '../modules/ScrollComponent'
+import ScrollComponent from '../ScrollComponent'
 
 export default data => {
 

@@ -11,7 +11,7 @@ export default props =>
           </a>
         </div>
         <div className="column is-narrow has-text-centered">
-          <a className="button is-large is-rounded" href="https://www.linkedin.com/in/will-sabol" target="_blank" rel="noopener noreferrer">
+          <a className="button is-large is-rounded" href="https://www.linkedin.com/in/willsabol" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
           </a>
         </div>

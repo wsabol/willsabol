@@ -1,5 +1,5 @@
 import React from 'react'
-import PortfolioItem from '../modules/PortfolioItem'
+import PortfolioItem from './PortfolioItem'
 
 export default class extends React.Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React from 'react'
-import ScrollComponent from '../modules/ScrollComponent'
-import AppPie from '../modules/AppPie'
-import ProfileCard from '../modules/ProfileCard'
+import ScrollComponent from '../ScrollComponent'
+import AppPie from './AppPie'
+import ProfileCard from './ProfileCard'
 
 export default class extends React.Component {
   constructor(props) {
