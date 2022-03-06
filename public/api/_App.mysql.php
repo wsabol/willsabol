@@ -11,7 +11,7 @@ class Application {
 		$PWD = $dbconf['psw'];
 		$SERVER = $dbconf['host'];
 		$DATABASE = "saboldru_developer";
-    $PORT = $dbconf['port'];
+        $PORT = $dbconf['port'];
 		if ( $PORT <= 0 ) $PORT = ini_get("mysqli.default_port");
 
 		self::$db = new mysqli($SERVER, $UID, $PWD, $DATABASE, $PORT);
@@ -23,10 +23,14 @@ class Application {
 		}
 	}
 	function __construct() {
-		$conf = parse_ini_file("/data/server-conf.ini", true);
+		$is_prod = (gethostname() == "us4.siteground.us");
+        $confdir = $is_prod ? "/home/customer/server-conf.ini" : "/usr/local/data/server-conf.ini";
+
+        $conf = parse_ini_file($confdir, true);
 		$this->admin = $conf['admin'];
 
-		$this->ConnectToDB($conf['database']);
+        $this->ConnectToDB($conf['siteground']);
+
 		$this->R = json_decode(file_get_contents('php://input'), true);
 	}
 	public function sendmail( $subject, $msg ) {
