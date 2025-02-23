@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="project">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build-composer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-composer.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" afterDir="false" />
+    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="branch main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/base.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +155,7 @@
       <workItem from="1740105737584" duration="12133000" />
       <workItem from="1740155516297" duration="38971000" />
       <workItem from="1740325895959" duration="1206000" />
-      <workItem from="1740327236946" duration="426000" />
+      <workItem from="1740327236946" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -297,7 +301,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740327614037</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary=".">
+      <option name="closed" value="true" />
+      <created>1740327746362</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327746362</updated>
+    </task>
+    <task id="LOCAL-00020" summary=".">
+      <option name="closed" value="true" />
+      <created>1740327757877</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327757877</updated>
+    </task>
+    <task id="LOCAL-00021" summary="branch main">
+      <option name="closed" value="true" />
+      <created>1740327765107</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327765107</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +357,8 @@
     <MESSAGE value="images" />
     <MESSAGE value="new code commit" />
     <MESSAGE value="project" />
-    <option name="LAST_COMMIT_MESSAGE" value="project" />
+    <MESSAGE value="." />
+    <MESSAGE value="branch main" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch main" />
   </component>
 </project>

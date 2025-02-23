@@ -69,26 +69,48 @@ p {
     }
 }
 
+.has-background-offset {
+    background-color: $background-offset !important;
+}
+
 [data-theme=dark], .theme-dark {
-    :root {
-        --bulma-light-h: 221deg;
-        --bulma-light-s: 14%;
-        --bulma-light-l: 4%;
+    .has-background-offset {
+        background-color: $background-offset-dark !important;
     }
 
-    $bold-emphasis-color: var(--bulma-text) !important;
-    $slight-emphasis-color: #dedede !important;
+    .has-background-dark {
+        background-color: $background-darker !important;
+    }
+
+    .about-card {
+        .slight-emphasis {
+            color: $slight-emphasis-color-dark;
+        }
+
+        .bold-emphasis {
+            color: $bold-emphasis-color-dark;
+        }
+    }
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --bulma-light-h: 221deg;
-        --bulma-light-s: 14%;
-        --bulma-light-l: 4%;
+    .has-background-offset {
+        background-color: $background-offset-dark !important;
     }
 
-    $bold-emphasis-color: var(--bulma-text) !important;
-    $slight-emphasis-color: #dedede !important;
+    .has-background-dark {
+        background-color: $background-darker !important;
+    }
+
+    .about-card {
+        .slight-emphasis {
+            color: $slight-emphasis-color-dark;
+        }
+
+        .bold-emphasis {
+            color: $bold-emphasis-color-dark;
+        }
+    }
 }
 
 /*

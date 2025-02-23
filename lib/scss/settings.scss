@@ -4,4 +4,12 @@ $blue: #425bca;
 
 // custom
 $slight-emphasis-color: black;
+$slight-emphasis-color-dark: #dedede;
+
 $bold-emphasis-color: hsl(var(--bulma-dark-h), var(--bulma-dark-s), var(--bulma-dark-l));
+$bold-emphasis-color-dark: var(--bulma-text);
+
+$background-offset: hsl(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l));
+$background-offset-dark: hsl(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l));
+
+$background-darker: #15161a;
