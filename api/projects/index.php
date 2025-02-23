@@ -25,6 +25,17 @@ class Projects_Endpoint extends CommonEndpoint {
                 ]
             ],
             [
+                'logo' => '/assets/images/projects/jrs-pay.jpg',
+                'title' => 'Financial Planning App',
+                'description' => "Using my business and finance education I created a web app for my family to aggregate our finances and investments, generate balance sheets, P&Ls, plan for retirement, and more.",
+                'links' => [
+                    [
+                        'text' => 'GitHub',
+                        'url' => 'https://github.com/wsabol/jrspay'
+                    ]
+                ]
+            ],
+            [
                 'logo' => '/assets/images/projects/music.png',
                 'title' => 'Music Portfolio',
                 'description' => "As an avid gigging musician and drum collector, I needed a site to showcase my skills and experience and coded the site myself.",
