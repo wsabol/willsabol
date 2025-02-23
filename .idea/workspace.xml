@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="branch main">
+    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="dark mode">
+      <change afterPath="$PROJECT_DIR$/assets/images/projects/jrs-pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/projects/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/projects/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo-negative.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/scss/settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/base.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/emails/email-base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/emails/email-base.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +135,11 @@
       <recent name="$PROJECT_DIR$/api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/images/projects" />
       <recent name="$PROJECT_DIR$/lib/js/portfolio/pages" />
       <recent name="$PROJECT_DIR$/views/emails" />
-      <recent name="$PROJECT_DIR$/assets/images/education" />
-      <recent name="$PROJECT_DIR$/assets/images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -155,7 +161,7 @@
       <workItem from="1740105737584" duration="12133000" />
       <workItem from="1740155516297" duration="38971000" />
       <workItem from="1740325895959" duration="1206000" />
-      <workItem from="1740327236946" duration="1378000" />
+      <workItem from="1740327236946" duration="6865000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -325,7 +331,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740327765107</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="dark mode">
+      <option name="closed" value="true" />
+      <created>1740328766325</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740328766325</updated>
+    </task>
+    <task id="LOCAL-00023" summary="dark mode">
+      <option name="closed" value="true" />
+      <created>1740328790787</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740328790787</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +381,7 @@
     <MESSAGE value="project" />
     <MESSAGE value="." />
     <MESSAGE value="branch main" />
-    <option name="LAST_COMMIT_MESSAGE" value="branch main" />
+    <MESSAGE value="dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="dark mode" />
   </component>
 </project>

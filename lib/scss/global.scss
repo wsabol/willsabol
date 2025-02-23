@@ -1,4 +1,26 @@
-@import "settings";
+$slight-emphasis-color: black;
+$slight-emphasis-color-dark: #dedede;
+
+$bold-emphasis-color: hsl(var(--bulma-dark-h), var(--bulma-dark-s), var(--bulma-dark-l));
+$bold-emphasis-color-dark: var(--bulma-text);
+
+$background-offset: hsl(var(--bulma-light-h), var(--bulma-light-s), var(--bulma-light-l));
+$background-offset-dark: hsl(var(--bulma-black-h), var(--bulma-black-s), var(--bulma-black-l));
+
+.navbar {
+    border-bottom: var(--bulma-border) solid 1px;
+}
+
+.navbar.is-transparent {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar.is-transparent .navbar-item:active,
+.navbar.is-transparent .navbar-item:focus,
+.navbar.is-transparent .navbar-item:focus-within {
+    background-color: transparent;
+}
 
 section {
     scroll-margin-top: 52px;
@@ -74,12 +96,16 @@ p {
 }
 
 [data-theme=dark], .theme-dark {
+    #nav-logo {
+        content: url("../../assets/logo-dark.png");
+    }
+
     .has-background-offset {
         background-color: $background-offset-dark !important;
     }
 
     .has-background-dark {
-        background-color: $background-darker !important;
+        background-color: $darker !important;
     }
 
     .about-card {
@@ -94,12 +120,16 @@ p {
 }
 
 @media (prefers-color-scheme: dark) {
+    #nav-logo {
+        content: url("../../assets/logo-dark.png");
+    }
+
     .has-background-offset {
         background-color: $background-offset-dark !important;
     }
 
     .has-background-dark {
-        background-color: $background-darker !important;
+        background-color: $darker !important;
     }
 
     .about-card {
@@ -124,9 +154,7 @@ nav.navbar {
     -o-transition: background-color 0.3s ease-out;
     transition: background-color 0.3s ease-out;
 }
-nav.navbar.is-transparent {
-    background-color: rgba(255,255,255,0);
-}
+
 .section-heading {
     margin-bottom: 3em;
 }

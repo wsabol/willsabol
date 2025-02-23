@@ -17,8 +17,6 @@ vendor/*
 # npm
 lib/node_modules
 lib/node_modules/*
-lib/webfonts
-lib/webfonts/*
 js/*
 /js/app.dev.js
 /js/*.js

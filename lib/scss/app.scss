@@ -1,16 +1,36 @@
 @charset "utf-8";
 
-@use "settings";
+// theme colors
+$blue: #425bca;
+$info: #489BD5;
+$success: #42CA6D;
+$warning: #D89627;
+$danger: #d4342b;
+$light: #edf1f4;
+$dark: #212831;
+$darker: #15161a;
 
-// bulma
-@use "~bulma/sass";
+$primary: $blue;
+
+// Import Bulma
+@use "~bulma/sass" with (
+  $primary: $primary,
+  $info: $info,
+  $success: $success,
+  $warning: $warning,
+  $danger: $danger,
+  $light: $light,
+  $dark: $dark
+);
+
+@use "~bulma/bulma";
 
 // font awesome
 $fa-font-path: '@fa-fonts';
-@use '~@fortawesome/fontawesome-free/scss/fontawesome';
-@use '~@fortawesome/fontawesome-free/scss/regular';
-@use '~@fortawesome/fontawesome-free/scss/brands';
-@use '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/solid';
 
 // Main
-@use "global";
+@import "global";
