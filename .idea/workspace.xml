@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build-composer.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/contact/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/education/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/experience/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/projects/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/system/errors/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/system/ping/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon_io/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon_io/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon_io/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon_io/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon_io/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/favicon_io/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/education/free-code-camp.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/education/texas-am-logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/experience/aereon_logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/experience/promedia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/experience/veros.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/projects/hunt-recipes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/projects/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/projects/subkick.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/will-professional-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo-negative.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Portfolio/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Portfolio/CommonEndpoint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Portfolio/EmailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Portfolio/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/burger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/easing-functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/experience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scss/.stylelintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scss/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scss/settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/base.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/emails/contact.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/emails/email-base.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wsabol&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wsabol/willsabol.git&quot;,
+    &quot;accountId&quot;: &quot;b5761086-8ce3-40ae-8aea-452faada4de7&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php/8.2.3/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tKfYjIw2HyRMaQ2cfDL8uEepKc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "redesign-2",
+    "last_opened_file_path": "/Users/wsabol/PhpstormProjects/willsabol/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/views/emails" />
+      <recent name="$PROJECT_DIR$/api/contact" />
+      <recent name="$PROJECT_DIR$/lib/js/portfolio/pages" />
+      <recent name="$PROJECT_DIR$/api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/js/portfolio/pages" />
+      <recent name="$PROJECT_DIR$/views/emails" />
+      <recent name="$PROJECT_DIR$/assets/images/education" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.19416.23" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.19416.23" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="" />
+      <created>1740105736470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740105736470</updated>
+      <workItem from="1740105737584" duration="12133000" />
+      <workItem from="1740155516297" duration="38971000" />
+      <workItem from="1740325895959" duration="680000" />
+    </task>
+    <task id="LOCAL-00001" summary="new">
+      <option name="closed" value="true" />
+      <created>1740323586624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740323586624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <option name="closed" value="true" />
+      <created>1740323633815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740323633815</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+</project>
