@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="dark mode">
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/jrs-pay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/projects/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/projects/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo-negative.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/js/portfolio/pages/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scss/settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scss/settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/emails/email-base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/views/emails/email-base.twig" afterDir="false" />
+    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="add jrspay">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +149,7 @@
       <workItem from="1740105737584" duration="12133000" />
       <workItem from="1740155516297" duration="38971000" />
       <workItem from="1740325895959" duration="1206000" />
-      <workItem from="1740327236946" duration="6865000" />
+      <workItem from="1740327236946" duration="7138000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -347,7 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740328790787</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="styling debug">
+      <option name="closed" value="true" />
+      <created>1740339746788</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740339746788</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add jrspay">
+      <option name="closed" value="true" />
+      <created>1740339754677</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740339754677</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +386,8 @@
     <MESSAGE value="." />
     <MESSAGE value="branch main" />
     <MESSAGE value="dark mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="dark mode" />
+    <MESSAGE value="styling debug" />
+    <MESSAGE value="add jrspay" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jrspay" />
   </component>
 </project>
