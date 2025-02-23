@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="assets">
-      <change afterPath="$PROJECT_DIR$/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon_io/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon_io/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon_io/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon_io/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon_io/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon_io/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/education/free-code-camp.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/education/texas-am-logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/experience/aereon_logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/experience/promedia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/experience/veros.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/hunt-recipes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/projects/subkick.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/will-professional-square.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo-negative.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/Portfolio/Autoloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/Portfolio/CommonEndpoint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/Portfolio/EmailController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/Portfolio/PageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/autoload.php" afterDir="false" />
+    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="new code commit">
       <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/.babelrc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/js/app.js" afterDir="false" />
@@ -54,7 +31,6 @@
       <change afterPath="$PROJECT_DIR$/views/base.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/views/emails/contact.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/views/emails/email-base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,27 +118,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "redesign-2",
-    "last_opened_file_path": "/Users/wsabol/PhpstormProjects/willsabol/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "application.passwordSafe",
-    "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;redesign-2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wsabol/PhpstormProjects/willsabol/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
@@ -198,6 +174,7 @@
       <workItem from="1740105737584" duration="12133000" />
       <workItem from="1740155516297" duration="38971000" />
       <workItem from="1740325895959" duration="1206000" />
+      <workItem from="1740327236946" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -263,7 +240,71 @@
       <option name="project" value="LOCAL" />
       <updated>1740326779324</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="project">
+      <option name="closed" value="true" />
+      <created>1740327323946</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327323947</updated>
+    </task>
+    <task id="LOCAL-00010" summary="assets">
+      <option name="closed" value="true" />
+      <created>1740327334899</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327334899</updated>
+    </task>
+    <task id="LOCAL-00011" summary="favicon">
+      <option name="closed" value="true" />
+      <created>1740327366368</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327366368</updated>
+    </task>
+    <task id="LOCAL-00012" summary="favicon">
+      <option name="closed" value="true" />
+      <created>1740327388056</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327388056</updated>
+    </task>
+    <task id="LOCAL-00013" summary="includes">
+      <option name="closed" value="true" />
+      <created>1740327411874</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327411874</updated>
+    </task>
+    <task id="LOCAL-00014" summary="favicon">
+      <option name="closed" value="true" />
+      <created>1740327458283</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327458283</updated>
+    </task>
+    <task id="LOCAL-00015" summary="logos">
+      <option name="closed" value="true" />
+      <created>1740327474921</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327474921</updated>
+    </task>
+    <task id="LOCAL-00016" summary="images">
+      <option name="closed" value="true" />
+      <created>1740327485360</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327485360</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +329,13 @@
     <MESSAGE value="project docs" />
     <MESSAGE value="github workflows" />
     <MESSAGE value="api" />
+    <MESSAGE value="project" />
     <MESSAGE value="assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="assets" />
+    <MESSAGE value="includes" />
+    <MESSAGE value="favicon" />
+    <MESSAGE value="logos" />
+    <MESSAGE value="images" />
+    <MESSAGE value="new code commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new code commit" />
   </component>
 </project>
