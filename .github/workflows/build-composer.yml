@@ -5,9 +5,10 @@ name: Build CI - PHP Composer
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
       - 'composer.json'
+      - 'composer.lock'
 
 jobs:
 
