@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="new code commit">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/pages/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/burger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/easing-functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/education.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/js/portfolio/widgets/smooth-scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scss/.stylelintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scss/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scss/settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/base.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/emails/contact.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/emails/email-base.twig" afterDir="false" />
+    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="project">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-composer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-composer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +151,7 @@
       <workItem from="1740105737584" duration="12133000" />
       <workItem from="1740155516297" duration="38971000" />
       <workItem from="1740325895959" duration="1206000" />
-      <workItem from="1740327236946" duration="281000" />
+      <workItem from="1740327236946" duration="426000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -304,7 +281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740327485360</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new code commit">
+      <option name="closed" value="true" />
+      <created>1740327597063</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327597063</updated>
+    </task>
+    <task id="LOCAL-00018" summary="project">
+      <option name="closed" value="true" />
+      <created>1740327614037</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327614037</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,13 +322,13 @@
     <MESSAGE value="project docs" />
     <MESSAGE value="github workflows" />
     <MESSAGE value="api" />
-    <MESSAGE value="project" />
     <MESSAGE value="assets" />
     <MESSAGE value="includes" />
     <MESSAGE value="favicon" />
     <MESSAGE value="logos" />
     <MESSAGE value="images" />
     <MESSAGE value="new code commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="new code commit" />
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
 </project>
