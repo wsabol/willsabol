@@ -1,0 +1,171 @@
+@import "settings";
+
+section {
+    scroll-margin-top: 52px;
+}
+
+.section-border {
+    border-top: var(--bulma-border) solid 1px;
+}
+
+.hero-image {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../../assets/images/background.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+
+.img-headshot {
+    overflow: hidden;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.img-headshot img {
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.on-hover-underline:hover {
+    text-decoration: underline;
+}
+
+.about-card {
+    .media .image img {
+        border-radius: 5px;
+    }
+
+    .slight-emphasis {
+        color: $slight-emphasis-color;
+        font-weight: 400;
+    }
+
+    .bold-emphasis {
+        color: $bold-emphasis-color;
+        font-weight: 700;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+[data-theme=dark], .theme-dark {
+    :root {
+        --bulma-light-h: 221deg;
+        --bulma-light-s: 14%;
+        --bulma-light-l: 4%;
+    }
+
+    $bold-emphasis-color: var(--bulma-text) !important;
+    $slight-emphasis-color: #dedede !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bulma-light-h: 221deg;
+        --bulma-light-s: 14%;
+        --bulma-light-l: 4%;
+    }
+
+    $bold-emphasis-color: var(--bulma-text) !important;
+    $slight-emphasis-color: #dedede !important;
+}
+
+/*
+.hidden {
+    display: none !important;
+}
+
+nav.navbar {
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+nav.navbar.is-transparent {
+    background-color: rgba(255,255,255,0);
+}
+.section-heading {
+    margin-bottom: 3em;
+}
+.section-footer {
+    margin-top: 3em;
+}
+.section-footer .buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.section-heading .title,
+.section-footer .title {
+    margin-top: 1rem;
+    font-size: 1.3rem !important;
+    letter-spacing: .4rem !important;
+    text-transform: uppercase;
+    font-family: "Noto Sans", sans-serif;
+}
+.section-heading .subtitle {
+    font-size: 2rem;
+}
+.timeline .timeline-content .tag + .tag {
+    margin-left: 5px;
+}
+.portfolio-item .card-image figure {
+    overflow: hidden;
+}
+.portfolio-item .card-image figure img {
+    height: auto !important;
+}
+.portfolio-item .card-content .title {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+}
+.hero-image {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../../assets/images/background.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+.button-special {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+*/
+
+@media screen and (min-width: 1280px) {
+    .hero-image {
+        flex: none;
+        width: 62%;
+    }
+    #home .container,
+    #home .container .title,
+    #home .container .subtitle {
+        color: inherit !important;
+    }
+}

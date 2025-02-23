@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@use "settings";
+
+// bulma
+@use "~bulma/sass";
+
+// font awesome
+$fa-font-path: '@fa-fonts';
+@use '~@fortawesome/fontawesome-free/scss/fontawesome';
+@use '~@fortawesome/fontawesome-free/scss/regular';
+@use '~@fortawesome/fontawesome-free/scss/brands';
+@use '~@fortawesome/fontawesome-free/scss/solid';
+
+// Main
+@use "global";
