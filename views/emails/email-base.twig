@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{subject}}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    {% block styles %}
+        <style type="text/css">
+            /* CLIENT-SPECIFIC STYLES */
+            body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+            table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+            img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+            /* RESET STYLES */
+            img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+            table{border-collapse: collapse !important;}
+            body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+            /* iOS BLUE LINKS */
+            a[x-apple-data-detectors] {
+                color: inherit !important;
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+            }
+
+            /* MOBILE STYLES */
+            @media screen and (max-width: 525px) {
+
+                /* ALLOWS FOR FLUID TABLES */
+                .wrapper {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                }
+
+                /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+                .mobile-hide {
+                    display: none !important;
+                }
+
+                .img-max {
+                    max-width: 100% !important;
+                    width: 100% !important;
+                    height: auto !important;
+                }
+
+                /* FULL-WIDTH TABLES */
+                .responsive-table {
+                    width: 100% !important;
+                }
+
+                /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+                .padding {
+                    padding: 10px 5% 15px 5% !important;
+                }
+
+                .padding-meta {
+                    padding: 30px 5% 0px 5% !important;
+                    text-align: center;
+                }
+
+                .padding-copy {
+                    padding: 10px 5% 10px 5% !important;
+                    text-align: center;
+                }
+
+                .no-padding {
+                    padding: 0 !important;
+                }
+
+                .section-padding {
+                    padding: 50px 15px 50px 15px !important;
+                }
+
+                /* ADJUST BUTTONS ON MOBILE */
+                .mobile-button-container {
+                    margin: 0 auto;
+                    width: 100% !important;
+                }
+
+                .mobile-button {
+                    padding: 15px !important;
+                    border: 0 !important;
+                    font-size: 16px !important;
+                    display: block !important;
+                }
+
+            }
+
+            /* ANDROID CENTER FIX */
+            div[style*="margin: 16px 0;"] { margin: 0 !important; }
+
+            .h1 {
+                color: #000000;
+                font-weight: 900;
+                font-family: 'Open Sans', 'Helvetica', sans-serif;
+                font-size: 26px;
+            }
+
+            .h2 {
+                color: #000000;
+                font-weight: 400;
+                font-family: 'Open Sans', 'Helvetica', sans-serif;
+                font-size: 16px;
+                /*text-transform: uppercase;*/
+                margin-bottom: 16px;
+                margin: 0 0 16px 0;
+            }
+
+            .h3 {
+                color: #000000;
+                font-weight: 900;
+                font-family: 'Open Sans', 'Helvetica', sans-serif;
+                font-size: 18px;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+                margin: 0 0 12px 0;
+            }
+
+            a,
+            a[href],
+            .li a[href],
+            p a[href],
+            a span {
+                color: #000000;
+                font-weight: bold;
+                font-family: 'Open Sans', 'Helvetica', sans-serif;
+            }
+
+            p,
+            .p,
+            li {
+                color: #000000;
+                font-weight: 100;
+                font-family: 'Open Sans', 'Helvetica', sans-serif;
+                font-size: 14px;
+                margin-bottom: 12px;
+                margin: 0 0 12px 0;
+                line-height: 1.3;
+            }
+
+            ul {
+                padding-left: 16px;
+                margin-top: 0;
+            }
+
+            a.link {
+                color: #008FCC;
+                font-weight: 400;
+                font-family: 'Open Sans', 'Helvetica', sans-serif;
+                font-size: 16px;
+                margin-bottom: 16px;
+                margin: 0 0 16px 0;
+            }
+
+            .spacer-xs {
+                height: 8px;
+            }
+
+            .spacer-sm {
+                height: 16px;
+            }
+
+            .spacer-md {
+                height: 24px;
+            }
+
+            .spacer {
+                height: 32px;
+            }
+
+            .footer_text,
+            .footer_text p,
+            .footer_text .p {
+                font-size: 10px;
+                color: #6E6E6E;
+                line-height: 18px;
+            }
+
+            .alert-header {
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 700;
+                color: #353535;
+                margin-bottom: 4px;
+            }
+
+            .btn {
+                display: inline-block;
+                padding: 11px 14px;
+                color: #fff !important;
+                font-weight: 400;
+                background-color: #4159ff;
+                text-align: center;
+                vertical-align: middle;
+                cursor: pointer;
+                user-select: none;
+                border-radius: 3px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .btn:hover {
+                background-color: #2940ff;
+            }
+
+            .btn.btn-block {
+                display: block;
+                font-size: 16px;
+            }
+        </style>
+        {% block custom_styles %}{% endblock %}
+    {% endblock %}
+</head>
+<body style="margin: 0 !important; padding: 0 !important;">
+<!-- HIDDEN PREHEADER TEXT -->
+<div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family:sans-serif;">
+    {% block pretext %}{{ pre_text }}{% endblock %}
+</div>
+<!-- HIDDEN PREHEADER TEXT END -->
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#f3f3f3" align="center" style="background-color: #f3f3f3;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {% if width %}{{ width }}{% else %}600{% endif %}px;" class="responsive-table">
+                <tr>
+                    <td bgcolor="#000000" style="background-color: #000;">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="16" class="responsive-table">
+                            <tr>
+                                <td>
+                                    <!-- header here -->
+                                    <img src="data:image/png;base64,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" alt="logo" height="35.5" style="height: 35.5px; margin: 0;" />
+                                    {% block header_banners %}
+                                        <div style="width: 2px; height: 34px; background-color: #434343; display: inline-block; margin: 0 12px 0 12px;"></div>
+                                        <div style="display: inline-block; font-family: Open Sans, Helvetica, sans-serif; font-size: 20px; font-weight: 100; color: #ffffff; margin-bottom: 6px; margin: 0 0 6px 0; vertical-align: text-bottom;">WillSabol.com</div>
+                                    {% endblock %}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            {% block main %}
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {% if width %}{{ width }}{% else %}600{% endif %}px;" class="responsive-table">
+                    <tr>
+                        <td width="32" style="width: 32px; background-color: #fff;">&nbsp;</td>
+                        <td bgcolor="#ffffff" style="background-color: #fff;">
+                            {% if include_subject_header %}
+                                <div class="spacer-md">&nbsp;</div>
+                                <div class="h1">{{ subject }}</div>
+                                <div class="spacer-md">&nbsp;</div>
+                            {% endif %}
+                            {% block content %}{% endblock %}
+                        </td>
+                        <td width="32" style="width: 32px; background-color: #fff;">&nbsp;</td>
+                    </tr>
+                </table>
+            {% endblock %}
+            {% block footer %}
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: {% if width %}{{ width }}{% else %}600{% endif %}px;" class="responsive-table">
+                    <tr>
+                        <td width="32" style="width: 32px;">&nbsp;</td>
+                        <td class="footer_text">
+                            <div class="spacer">&nbsp;</div>
+                            {% block footer_reason %}
+                                <div class="p">This is an automated email from
+                                    <a href="https://willsabol.com">WillSabol.com</a>. Please do not reply
+                                    to this email as this address is not monitored.</div>
+                                <div class="spacer-xs">&nbsp;</div>
+                            {% endblock %}
+                            <div class="p">© {{ 'now' | date('Y') }} <a href="https://willsabol.com">Will Sabol</a></div>
+                            <div class="spacer">&nbsp;</div>
+                        </td>
+                        <td width="32" style="width: 32px;">&nbsp;</td>
+                    </tr>
+                </table>
+            {% endblock %}
+            <div class="spacer">&nbsp;</div>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
