@@ -44,8 +44,6 @@ class Autoloader {
             /* load environment vars */
             $dotenv = Dotenv::createImmutable(PORTFOLIO_ROOT);
             $dotenv->load();
-            $dotenv->required(['DB_HOST', 'DB_USERNAME', 'DB_PASSWORD']);
-            unset($dotenv);
 
             if (!defined('IS_PRODUCTION')) {
                 /** @var bool $IS_PRODUCTION Whether on production server */
