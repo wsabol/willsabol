@@ -1,6 +1,6 @@
 <?php
 
-use Portfolio\CommonEndpoint;
+use Portfolio\Endpoints\CommonEndpoint;
 
 require '../../../includes/autoload.php';
 

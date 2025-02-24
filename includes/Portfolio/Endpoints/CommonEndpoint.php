@@ -1,6 +1,6 @@
 <?php
 
-namespace Portfolio;
+namespace Portfolio\Endpoints;
 
 /**
  * Common endpoint class to be extended
