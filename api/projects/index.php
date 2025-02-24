@@ -64,7 +64,7 @@ class Projects_Endpoint extends CommonEndpoint {
             [
                 'logo' => '/assets/images/projects/subkick.jpeg',
                 'title' => 'Low Freq Microphone',
-                'description' => "These unique microphones woofers wired in reverse. They are used to augment low frequency capture and in recording studios. I made this one myself in a drum-like enclosure with a phase inverter and analog low pass filter.",
+                'description' => "These unique microphones are woofers wired in reverse. They are used to augment low frequency capture and in recording studios. I made this one myself in a drum-like enclosure with a phase inverter and analog low pass filter.",
                 'links' => [
                     [
                         'text' => 'Hear it in action',
