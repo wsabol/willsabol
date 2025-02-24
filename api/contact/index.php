@@ -8,8 +8,6 @@ require '../../includes/autoload.php';
 class Contact_Endpoint extends CommonEndpoint {
 
     public function __construct() {
-        // $this->restrict_access();
-
         $method = $_SERVER['REQUEST_METHOD'];
 
         switch ($method) {

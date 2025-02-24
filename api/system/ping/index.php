@@ -7,8 +7,6 @@ require '../../../includes/autoload.php';
 class System_Ping_Endpoint extends CommonEndpoint {
 
     public function __construct() {
-        // $this->restrict_access();
-
         $method = $_SERVER['REQUEST_METHOD'];
 
         switch ($method) {
