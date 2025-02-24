@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="add jrspay">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test-and-deploy.yml" afterDir="false" />
+    <list default="true" id="4af84c29-df5e-4d34-bb59-cf5855a3f007" name="Changes" comment="env example">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-    </option>
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -24,23 +21,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="redesign-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;wsabol&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wsabol"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/wsabol/willsabol.git&quot;,
-    &quot;accountId&quot;: &quot;b5761086-8ce3-40ae-8aea-452faada4de7&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wsabol/willsabol.git",
+    "accountId": "b5761086-8ce3-40ae-8aea-452faada4de7"
   }
-}</component>
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php/8.2.3/bin/php">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
@@ -82,10 +79,10 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2tKfYjIw2HyRMaQ2cfDL8uEepKc" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2tSsTkkBiKwqlCSecRLnJfVQTGo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -93,43 +90,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;redesign-2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wsabol/PhpstormProjects/willsabol/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/views/emails" />
-      <recent name="$PROJECT_DIR$/api/contact" />
-      <recent name="$PROJECT_DIR$/lib/js/portfolio/pages" />
-      <recent name="$PROJECT_DIR$/api" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/assets/images/projects" />
-      <recent name="$PROJECT_DIR$/lib/js/portfolio/pages" />
-      <recent name="$PROJECT_DIR$/views/emails" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -141,253 +110,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10646ea6-c8e2-466f-ba27-dcf7a7331c3f" name="Changes" comment="" />
-      <created>1740105736470</created>
+      <changelist id="4af84c29-df5e-4d34-bb59-cf5855a3f007" name="Changes" comment="env example" />
+      <created>1740356819304</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740105736470</updated>
-      <workItem from="1740105737584" duration="12133000" />
-      <workItem from="1740155516297" duration="38971000" />
-      <workItem from="1740325895959" duration="1206000" />
-      <workItem from="1740327236946" duration="7138000" />
+      <updated>1740356819304</updated>
+      <workItem from="1740356820210" duration="31000" />
     </task>
-    <task id="LOCAL-00001" summary="new">
-      <option name="closed" value="true" />
-      <created>1740323586624</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740323586624</updated>
-    </task>
-    <task id="LOCAL-00002" summary="new">
-      <option name="closed" value="true" />
-      <created>1740323633815</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1740323633815</updated>
-    </task>
-    <task id="LOCAL-00003" summary="phpstorm">
-      <option name="closed" value="true" />
-      <created>1740326640061</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326640061</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ignore npm">
-      <option name="closed" value="true" />
-      <created>1740326682774</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326682774</updated>
-    </task>
-    <task id="LOCAL-00005" summary="project docs">
-      <option name="closed" value="true" />
-      <created>1740326711608</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326711608</updated>
-    </task>
-    <task id="LOCAL-00006" summary="github workflows">
-      <option name="closed" value="true" />
-      <created>1740326733587</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326733588</updated>
-    </task>
-    <task id="LOCAL-00007" summary="api">
-      <option name="closed" value="true" />
-      <created>1740326759749</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326759749</updated>
-    </task>
-    <task id="LOCAL-00008" summary="assets">
-      <option name="closed" value="true" />
-      <created>1740326779324</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326779324</updated>
-    </task>
-    <task id="LOCAL-00009" summary="project">
-      <option name="closed" value="true" />
-      <created>1740327323946</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327323947</updated>
-    </task>
-    <task id="LOCAL-00010" summary="assets">
-      <option name="closed" value="true" />
-      <created>1740327334899</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327334899</updated>
-    </task>
-    <task id="LOCAL-00011" summary="favicon">
-      <option name="closed" value="true" />
-      <created>1740327366368</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327366368</updated>
-    </task>
-    <task id="LOCAL-00012" summary="favicon">
-      <option name="closed" value="true" />
-      <created>1740327388056</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327388056</updated>
-    </task>
-    <task id="LOCAL-00013" summary="includes">
-      <option name="closed" value="true" />
-      <created>1740327411874</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327411874</updated>
-    </task>
-    <task id="LOCAL-00014" summary="favicon">
-      <option name="closed" value="true" />
-      <created>1740327458283</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327458283</updated>
-    </task>
-    <task id="LOCAL-00015" summary="logos">
-      <option name="closed" value="true" />
-      <created>1740327474921</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327474921</updated>
-    </task>
-    <task id="LOCAL-00016" summary="images">
-      <option name="closed" value="true" />
-      <created>1740327485360</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327485360</updated>
-    </task>
-    <task id="LOCAL-00017" summary="new code commit">
-      <option name="closed" value="true" />
-      <created>1740327597063</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327597063</updated>
-    </task>
-    <task id="LOCAL-00018" summary="project">
-      <option name="closed" value="true" />
-      <created>1740327614037</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327614037</updated>
-    </task>
-    <task id="LOCAL-00019" summary=".">
-      <option name="closed" value="true" />
-      <created>1740327746362</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327746362</updated>
-    </task>
-    <task id="LOCAL-00020" summary=".">
-      <option name="closed" value="true" />
-      <created>1740327757877</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327757877</updated>
-    </task>
-    <task id="LOCAL-00021" summary="branch main">
-      <option name="closed" value="true" />
-      <created>1740327765107</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327765107</updated>
-    </task>
-    <task id="LOCAL-00022" summary="dark mode">
-      <option name="closed" value="true" />
-      <created>1740328766325</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1740328766325</updated>
-    </task>
-    <task id="LOCAL-00023" summary="dark mode">
-      <option name="closed" value="true" />
-      <created>1740328790787</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1740328790787</updated>
-    </task>
-    <task id="LOCAL-00024" summary="styling debug">
-      <option name="closed" value="true" />
-      <created>1740339746788</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1740339746788</updated>
-    </task>
-    <task id="LOCAL-00025" summary="add jrspay">
-      <option name="closed" value="true" />
-      <created>1740339754677</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1740339754677</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="new" />
-    <MESSAGE value="test" />
-    <MESSAGE value="phpstorm" />
-    <MESSAGE value="ignore npm" />
-    <MESSAGE value="project docs" />
-    <MESSAGE value="github workflows" />
-    <MESSAGE value="api" />
-    <MESSAGE value="assets" />
-    <MESSAGE value="includes" />
-    <MESSAGE value="favicon" />
-    <MESSAGE value="logos" />
-    <MESSAGE value="images" />
-    <MESSAGE value="new code commit" />
-    <MESSAGE value="project" />
-    <MESSAGE value="." />
-    <MESSAGE value="branch main" />
-    <MESSAGE value="dark mode" />
-    <MESSAGE value="styling debug" />
-    <MESSAGE value="add jrspay" />
-    <option name="LAST_COMMIT_MESSAGE" value="add jrspay" />
   </component>
 </project>
